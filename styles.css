@@ -1,0 +1,164 @@
+.main-container {
+	text-align: center;
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.left-aligned {
+	text-align: left;
+}
+
+/*margin below headings*/
+.margin-bot {
+	margin-bottom: 10px;
+}
+
+/*Navbar*/
+.navbar-custom{
+	background-color: #354F52;
+}
+
+/*Heading*/
+.heading-container-full {
+	background-color: white;
+}
+
+.heading-container {
+	padding-top: 116px;
+	padding-bottom: 60px;
+	max-width: 65%;
+}
+
+.heading-text-container {
+	margin: auto;
+}
+
+.greeting {
+	font: bold;
+	font-weight: 900;
+	font-size: 38px;
+}
+
+.social-icon-container {
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+.social-icon-link:link, .social-icon-link:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+.profile-photo {
+	width: 350px;
+	border-radius: 15%;
+}
+
+/*About me*/
+.about-me-container-full {
+	background-color: #CAD2C5;
+	color: white;
+	position: relative;
+}
+
+.about-me-container {
+	max-width: 65%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.about-me-text {
+	line-height: 1.65;
+}
+
+.skills-container {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.carousel-heading {
+	margin-bottom: 20px;
+	font-size: 1.15rem;
+}
+
+.carousel-label {
+	position: relative;
+	color: white;
+	bottom: 5px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+@media only screen and (max-width: 992px) {
+	.carousel-container {
+		margin: auto;
+		max-width: 60%
+	}
+}
+
+/*Experience*/
+.experience-container-full {
+	background-color: white;
+}
+
+.experience-container {
+	max-width: 65%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.exp-row {
+	margin-bottom: 60px;
+}
+
+.heading-text {
+	color: #7F817E;
+}
+
+.exp-element-section {
+	margin-bottom: 15px;
+}
+
+/*Contacts*/
+.contacts-container-full {
+	background-color: #354F52;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.contacts-container {
+	max-width: 65%;
+	color: white;
+}
+
+.social-link:link, .social-link:visited {
+	color: white;
+}
+
+.lt-flag-container {
+	float: left;
+}
+
+.lt-flag {
+	width: 19px;
+	top: 1px;
+	position: relative;	
+}
+
+.phone-number {
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	margin-left: 3px;
+}

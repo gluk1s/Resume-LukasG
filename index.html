@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CV</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<!-- Navbar section -->
+	<div>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+			<a class="navbar-brand" href="">Resume</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationBar" aria-controls="navigationBar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navigationBar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#about-me">ABOUT ME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#experience">EXPERIENCE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contacts">CONTACTS</a>
+					</li>
+				</ul>				
+			</div>
+		</nav>
+	</div>
+	<div class="main-container">
+
+		<!-- Heading section -->
+		<div class="heading-container-full">
+			<div class="container-fluid heading-container">
+				<div class="row">
+					<div class="col-md heading-text-container">
+						<h3 class="greeting">Hi, I am Lukas</h3>
+						<p>
+							<div class="social-icon-container">
+								<a class="social-icon-link" target="_blank" href="https://www.linkedin.com/in/lukas-gra%C5%BEys-6a635a1ab/"><i class="fab fa-linkedin fa-2x"></i></a>
+							</div>
+							<div class="social-icon-container">
+								<a class="social-icon-link" target="_blank" href="https://www.facebook.com/lukas.grazys/"><i class="fab fa-facebook-square fa-2x"></i></a>
+							</div>					
+						</p>
+					</div>
+					<div class="col-md">
+						<figure><img class="profile-photo img-fluid" src="photos/me.jpg"></figure>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- About me -->
+		<div class="about-me-container-full" id="about-me">
+			<div class="container-fluid about-me-container">
+				<div class="row justify-content-between">
+					<div class="col-lg-7 left-aligned">
+						<h6 class="margin-bot">― MY BACKGROUND</h6>
+						<p class="about-me-text">I am Lukas Gražys, and I recently graduated with a bachelor’s degree in biochemistry. A couple of years ago, I felt the urge to learn how to design websites. During this time, I gained work experience with frontend (HTML / CSS, JavaScript) and backend (Python: Django, Flask; SQLite) technologies. At the moment, I want to deepen my knowledge in the face of challenges and gain new experience working in a team of professionals. As I have no professional work experience in this field, the internship proposal for this or a similar position would be acceptable.</p>
+					</div>
+					<div class="col-lg-3 skills-container">
+						<h6 class="carousel-heading">SKILLS</h6>
+						<div id="carouselCaptions" class="carousel slide carousel-container" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselCaptions" data-slide-to="1"></li>
+						    <li data-target="#carouselCaptions" data-slide-to="2"></li>
+						    <li data-target="#carouselCaptions" data-slide-to="3"></li>
+						  </ol>
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <img src="photos/skills/html.png" class="d-block w-100" alt="html">
+						      <div class="carousel-caption d-none d-md-block">
+						        <h5 class="carousel-label">HTML</h5>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="photos/skills/css-3.png" class="d-block w-100" alt="css">
+						      <div class="carousel-caption d-none d-md-block">
+						        <h5 class="carousel-label">CSS</h5>
+						      </div>
+						    </div>
+						    <div class="carousel-item">
+						      <img src="photos/skills/java-script.png" class="d-block w-100" alt="javascript">
+						      <div class="carousel-caption d-none d-md-block">
+						        <h5 class="carousel-label">JavaScript</h5>
+						      </div>						      
+						    </div>
+						    <div class="carousel-item">
+						      <img src="photos/skills/python.png" class="d-block w-100" alt="python">
+						      <div class="carousel-caption d-none d-md-block">
+						        <h5 class="carousel-label">Python</h5>
+						      </div>						      
+						    </div>
+						  </div>
+						  <button class="carousel-control-prev" type="button" data-target="#carouselCaptions" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </button>
+						  <button class="carousel-control-next" type="button" data-target="#carouselCaptions" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Experience -->
+		<div class="experience-container-full" id="experience">
+			<div class="container-fluid experience-container">
+				<!-- Work exp -->
+				<div class="row exp-row">
+					<div class="col-md-4 left-aligned">
+						<h6 class="heading-text">― WORK EXPERIENCE</h6>
+					</div>
+					<div class="col-md left-aligned">
+						<div class="exp-element-section">
+							<h5 class="margin-bot">Laboratory assistant</h5>
+							<h6>Fizinių ir technologijos mokslų centras / Sept 2021 - Apr 2022</h6>
+						</div>
+						<div>
+							<h5 class="margin-bot">Chemistry tutor</h5>
+							<h6>Alfa klasė / Oct 2019 - Dec 2019</h6>
+						</div>
+					</div>
+				</div>
+				<!-- Education -->
+				<div class="row exp-row">
+					<div class="col-md-4 left-aligned">
+						<h6 class="heading-text">― EDUCATION</h6>
+					</div>
+					<div class="col-md left-aligned">
+						<div>
+							<h5 class="margin-bot">Vilnius University</h5>
+							<h6>Bachelor’s degree, Biochemistry / 2018 - 2022</h6>
+						</div>
+					</div>
+				</div>
+				<!-- Courses -->
+				<div class="row">
+					<div class="col-md-4 left-aligned">
+						<h6 class="heading-text">― COURSES</h6>
+					</div>
+					<div class="col-md left-aligned">
+						<div class="exp-element-section">
+							<h5 class="margin-bot">CS50's Introduction to Computer Science</h5>
+							<h6>edX / 2021</h6>
+						</div>
+						<div>
+							<h5 class="margin-bot">Introduction to Web Development</h5>
+							<h6>Coursera / 2020</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contacts -->
+		<div class="contacts-container-full" id="contacts">
+			<div class="container-fluid contacts-container">
+				<div class="row">
+					<div class="col-md left-aligned">
+						<h3>Lukas G.</h3>
+					</div>
+					<div class="col-md left-aligned">
+						<h6>― SOCIALS</h6>
+						<ul>
+							<li><a class="social-link" target="_blank" href="https://www.linkedin.com/in/lukas-gra%C5%BEys-6a635a1ab/">Linkedin</a></li>
+							<li><a class="social-link" target="_blank" href="https://www.facebook.com/lukas.grazys/">Facebook</a></li>
+						</ul>
+
+					</div>
+					<div class="col-md left-aligned">
+						<h6>― CONTACTS</h6>
+						<ul>
+							<li>lukasgra44@gmail.com</li>
+							<li><div class="lt-flag-container"><img class="lt-flag" src="photos/flags/lt4x3.svg"></div><div class="phone-number">+37062255487</div></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/1464b3d7da.js" crossorigin="anonymous"></script>
+
+	<!-- References -->
+	<!-- <a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Freepik - Flaticon</a> -->
+	<!-- <a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Pixel perfect - Flaticon</a> -->
+	<!-- <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by edt.im - Flaticon</a> -->
+	<!-- <a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Freepik - Flaticon</a> -->
+
+</body>
+</html>
